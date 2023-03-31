@@ -1,0 +1,8 @@
+*.json
+/projects
+*.pyc
+/.vscode
+*.tmp
+*.log
+env
+private_keys.py
