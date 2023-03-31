@@ -1,8 +1,11 @@
 *.json
-/projects
 *.pyc
 /.vscode
 *.tmp
 *.log
 env
 private_keys.py
+*/flask_session
+*/migrations
+*/cache
+*/__pycache__

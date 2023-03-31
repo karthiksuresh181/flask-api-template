@@ -7,6 +7,7 @@ __doc_location__ = False
 api = Api(blueprint, version="1.0", title="Deadpool Alerts",
           description="Rest API related to deadpool alert service", doc=__doc_location__)
 
+
 @api.errorhandler(Exception)
 def error_handler(error):
     """ Error Handler for the App """
